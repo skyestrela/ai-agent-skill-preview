@@ -1,14 +1,33 @@
 # Free AI Agent Skill: Code Review Gate
 
-A complete, readable Markdown workflow for coding agents that performs a structured pre-merge review.
+[![skills.sh](https://img.shields.io/badge/skills.sh-code--review--gate-111827)](https://skills.sh/skyestrela/ai-agent-skill-preview/code-review-gate)
+[![MIT](https://img.shields.io/badge/licence-MIT-0f766e)](LICENSE)
 
-This repository contains one free skill from the **AI Agent Skills Pack**.
+A complete, readable Markdown workflow that makes Claude Code, Codex, Hermes and other coding agents perform a structured pre-merge review.
 
-## Use it
+This repository contains one free skill from the **AI Agent Skills Pack**. It is not a teaser file: the full Code Review Gate workflow is MIT licensed and usable on its own.
 
-Read `code-review-gate/SKILL.md`, place the folder in the location supported by your agent, then ask the agent to use `code-review-gate` before a merge or release.
+## Install it
 
-Skill discovery paths vary by product and version. Follow the current documentation for Claude Code, Codex, Hermes, or your chosen agent.
+Verified one-command Codex installation:
+
+```bash
+npx skills add skyestrela/ai-agent-skill-preview --skill code-review-gate --agent codex --global --yes --copy
+```
+
+List the available skill without installing:
+
+```bash
+npx skills add skyestrela/ai-agent-skill-preview --list
+```
+
+Or generate the skill prompt directly:
+
+```bash
+npx skills use skyestrela/ai-agent-skill-preview@code-review-gate
+```
+
+Manual installation is also supported: read `code-review-gate/SKILL.md`, place the folder in the location supported by your agent, then ask the agent to use `code-review-gate` before a merge or release. Skill discovery paths vary by product and version, so follow your agent's current documentation.
 
 ## What it checks
 
@@ -37,9 +56,17 @@ The complete £19 pack contains ten workflows:
 
 Product page and secure Stripe Checkout:
 
-https://ai-agent-skills-pack.vercel.app
+https://ai-agent-skills-pack.vercel.app/?utm_source=github&utm_medium=free-preview&utm_campaign=skills-pack-v1
 
 The paid pack is a one-time single-user commercial licence with a 30-day refund policy.
+
+## Verified compatibility
+
+- The public repository is detected by the current `skills` CLI as one installable skill.
+- A clean isolated Codex install placed `SKILL.md` under `~/.agents/skills/code-review-gate/`.
+- The source remains plain Markdown and can be inspected before installation.
+- The workflow requires evidence before approval and does not auto-fix security findings.
+- `examples/EXAMPLE-REPORT.md` shows the expected report shape against an explicitly unsafe fixture.
 
 ## Safety
 
