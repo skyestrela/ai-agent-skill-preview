@@ -1,11 +1,11 @@
-# Free AI Agent Skill: Code Review Gate
+# Free AI Agent Skills for Coding Workflows
 
 [![skills.sh](https://img.shields.io/badge/skills.sh-code--review--gate-111827)](https://skills.sh/skyestrela/ai-agent-skill-preview/code-review-gate)
 [![MIT](https://img.shields.io/badge/licence-MIT-0f766e)](LICENSE)
 
 A complete, readable Markdown workflow that makes Claude Code, Codex, Hermes and other coding agents perform a structured pre-merge review.
 
-This repository contains one free skill from the **AI Agent Skills Pack**. It is not a teaser file: the full Code Review Gate workflow is MIT licensed and usable on its own.
+This repository starts with one free skill from the **AI Agent Skills Pack** and adds small companion workflows on a measured release cadence. The Code Review Gate is not a teaser file: its full workflow is MIT licensed and usable on its own.
 
 ## Install it
 
@@ -38,6 +38,12 @@ Manual installation is also supported: read `code-review-gate/SKILL.md`, place t
 - correctness and async problems;
 - dead or overly complex code;
 - review evidence and ship/no-ship verdict.
+
+## Free skills
+
+<!-- FREE_SKILLS_START -->
+- [Code Review Gate](code-review-gate/SKILL.md) — evidence-first security, correctness and quality review before merge.
+<!-- FREE_SKILLS_END -->
 
 ## Complete pack
 
