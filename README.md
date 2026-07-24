@@ -43,6 +43,7 @@ Manual installation is also supported: read `code-review-gate/SKILL.md`, place t
 
 <!-- FREE_SKILLS_START -->
 - [Code Review Gate](code-review-gate/SKILL.md) — evidence-first security, correctness and quality review before merge.
+- [Bug Reproduction Brief](bug-reproduction-brief/SKILL.md) — turns a vague bug report into a minimal, evidence-backed reproduction before fixes begin.
 <!-- FREE_SKILLS_END -->
 
 ## Complete pack
