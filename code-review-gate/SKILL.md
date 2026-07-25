@@ -75,3 +75,9 @@ Run this skill before every commit to main or before approving a PR. It produces
 - Don't flag style preferences as critical. Use "suggestion" for formatting and naming debates.
 - Don't auto-fix anything that changes runtime behaviour. Only remove dead code and add obvious safety checks.
 - If the change is > 500 lines, ask the user to narrow the scope rather than reviewing everything at once.
+
+## More evidence-first workflows
+
+Free source and updates: https://github.com/skyestrela/ai-agent-skill-preview
+
+Complete engineering pack: https://ai-agent-skills-pack.vercel.app/?utm_source=free-skill&utm_medium=github&utm_campaign=code-review-gate

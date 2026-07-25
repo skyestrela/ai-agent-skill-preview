@@ -1,18 +1,24 @@
 # Free AI Agent Skills for Coding Workflows
 
-[![skills.sh](https://img.shields.io/badge/skills.sh-code--review--gate-111827)](https://skills.sh/skyestrela/ai-agent-skill-preview/code-review-gate)
+[![skills.sh](https://img.shields.io/badge/skills.sh-2%20free%20skills-111827)](https://skills.sh/skyestrela/ai-agent-skill-preview/code-review-gate)
 [![MIT](https://img.shields.io/badge/licence-MIT-0f766e)](LICENSE)
 
-A complete, readable Markdown workflow that makes Claude Code, Codex, Hermes and other coding agents perform a structured pre-merge review.
+Two complete, readable Markdown workflows for Claude Code, Codex, Hermes and other coding agents: a structured pre-merge review and an evidence-backed bug reproduction brief.
 
-This repository starts with one free skill from the **AI Agent Skills Pack** and adds small companion workflows on a measured release cadence. The Code Review Gate is not a teaser file: its full workflow is MIT licensed and usable on its own.
+This repository publishes complete free skills from the **AI Agent Skills Pack** on a measured release cadence. They are not teaser files: both current workflows are MIT licensed and usable on their own.
 
-## Install it
+## Install a skill
 
 Verified one-command Codex installation:
 
 ```bash
 npx skills add skyestrela/ai-agent-skill-preview --skill code-review-gate --agent codex --global --yes --copy
+```
+
+Install the Bug Reproduction Brief instead:
+
+```bash
+npx skills add skyestrela/ai-agent-skill-preview --skill bug-reproduction-brief --agent codex --global --yes --copy
 ```
 
 List the available skill without installing:
@@ -69,7 +75,7 @@ The paid pack is a one-time single-user commercial licence with a 30-day refund 
 
 ## Verified compatibility
 
-- The public repository is detected by the current `skills` CLI as one installable skill.
+- The public repository is detected by the current `skills` CLI as two installable skills.
 - A clean isolated Codex install placed `SKILL.md` under `~/.agents/skills/code-review-gate/`.
 - The source remains plain Markdown and can be inspected before installation.
 - The workflow requires evidence before approval and does not auto-fix security findings.
