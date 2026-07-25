@@ -5,6 +5,8 @@
 
 Four complete, readable Markdown workflows for Claude Code, Codex, Hermes and other coding agents: structured pre-merge review, evidence-backed bug reproduction, dependency-risk triage and rollback readiness.
 
+**Product Hunt launch:** [AI Agent Skills Pack — 10 evidence-first workflows for AI coding agents](https://www.producthunt.com/products/ai-agent-skills-pack?launch=ai-agent-skills-pack). Questions and concrete workflow feedback are welcome; no testimonial or purchase is required.
+
 This repository publishes complete free skills from the **AI Agent Skills Pack** on a measured release cadence. They are not teaser files: all current workflows are MIT licensed and usable on their own.
 
 ## Install a skill
