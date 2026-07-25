@@ -1,9 +1,9 @@
 # Free AI Agent Skills for Coding Workflows
 
-[![skills.sh](https://img.shields.io/badge/skills.sh-3%20free%20skills-111827)](https://skills.sh/skyestrela/ai-agent-skill-preview/code-review-gate)
+[![skills.sh](https://img.shields.io/badge/skills.sh-4%20free%20skills-111827)](https://skills.sh/skyestrela/ai-agent-skill-preview/code-review-gate)
 [![MIT](https://img.shields.io/badge/licence-MIT-0f766e)](LICENSE)
 
-Three complete, readable Markdown workflows for Claude Code, Codex, Hermes and other coding agents: structured pre-merge review, evidence-backed bug reproduction and dependency-risk triage.
+Four complete, readable Markdown workflows for Claude Code, Codex, Hermes and other coding agents: structured pre-merge review, evidence-backed bug reproduction, dependency-risk triage and rollback readiness.
 
 This repository publishes complete free skills from the **AI Agent Skills Pack** on a measured release cadence. They are not teaser files: all current workflows are MIT licensed and usable on their own.
 
@@ -25,6 +25,12 @@ Install Dependency Risk Triage:
 
 ```bash
 npx skills add skyestrela/ai-agent-skill-preview --skill dependency-risk-triage --agent codex --global --yes --copy
+```
+
+Install Rollback Readiness Card:
+
+```bash
+npx skills add skyestrela/ai-agent-skill-preview --skill rollback-readiness-card --agent codex --global --yes --copy
 ```
 
 List the available skill without installing:
@@ -83,7 +89,7 @@ The paid pack is a one-time single-user commercial licence with a 30-day refund 
 
 ## Verified compatibility
 
-- The public repository is detected by the current `skills` CLI as three installable skills.
+- The public repository is detected by the current `skills` CLI as four installable skills.
 - A clean isolated Codex install placed `SKILL.md` under `~/.agents/skills/code-review-gate/`.
 - The source remains plain Markdown and can be inspected before installation.
 - The workflow requires evidence before approval and does not auto-fix security findings.
