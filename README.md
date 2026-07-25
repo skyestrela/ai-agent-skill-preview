@@ -57,6 +57,7 @@ Manual installation is also supported: read `code-review-gate/SKILL.md`, place t
 - [Code Review Gate](code-review-gate/SKILL.md) — evidence-first security, correctness and quality review before merge.
 - [Bug Reproduction Brief](bug-reproduction-brief/SKILL.md) — turns a vague bug report into a minimal, evidence-backed reproduction before fixes begin.
 - [Dependency Risk Triage](dependency-risk-triage/SKILL.md) — separates vulnerable, reachable dependencies from noisy scanner output and verifies upgrades.
+- [Rollback Readiness Card](rollback-readiness-card/SKILL.md) — records release identity, rollback commands, data compatibility and kill criteria before deployment.
 <!-- FREE_SKILLS_END -->
 
 ## Complete pack
