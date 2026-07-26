@@ -1,6 +1,6 @@
 ---
 name: bug-reproduction-brief
-version: 1.0.0
+version: 1.0.1
 description: Turn a vague bug report into a minimal, evidence-backed reproduction before proposing a fix.
 tags: [debugging, reproduction, triage, evidence]
 ---
@@ -42,6 +42,7 @@ Run the minimal reproduction at least twice where safe. Record commands and outp
 # Bug Reproduction Brief
 - Target and commit:
 - Environment:
+- Report provenance: first-hand / second-hand; verified / unverified at intake
 - Expected:
 - Actual:
 - Minimal steps:
@@ -56,7 +57,7 @@ Run the minimal reproduction at least twice where safe. Record commands and outp
 
 - Do not change production data merely to reproduce a bug.
 - Do not publish secrets, customer records or private source.
-- Do not claim a root cause from correlation alone.
+- During this reproduction-only workflow, do not state a root cause or causal explanation, even when one line appears suspicious. Put only a testable candidate under `Safe next hypothesis to test`.
 - Stop after a verified reproduction; diagnosis and repair are separate workflows.
 
 ## More evidence-first workflows

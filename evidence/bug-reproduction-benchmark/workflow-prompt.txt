@@ -1,0 +1,28 @@
+Investigate the support report in README.md and return a concise bug reproduction brief. Inspect the repository and run any safe local commands needed to establish evidence. Do not modify any files. Do not propose or implement a fix.
+
+Follow this workflow exactly:
+
+# Bug Reproduction Brief
+
+Use this skill when a bug report is incomplete, intermittent, environment-specific, or mixed with an assumed cause.
+
+## 1. Record the observed failure
+Capture the exact error, incorrect output, timestamp, affected route/command and the smallest known input. Preserve logs without secrets or personal data. Label second-hand descriptions as unverified.
+
+## 2. Identify the environment
+Record only facts you can inspect: repository and commit, runtime version, operating system/container, dependency lockfile, relevant feature flags and whether the target is local, test or production. Never guess credentials or production configuration.
+
+## 3. Write expected versus actual behaviour
+Use explicit Expected and Actual statements. Do not use the suspected cause as either statement.
+
+## 4. Reduce the reproduction
+Start from the reported path, then remove unrelated data, services and steps one at a time. Keep the smallest fixture that still fails.
+
+## 5. Prove repeatability
+Run the minimal reproduction at least twice where safe. Record commands and outputs. If intermittent, report observed frequency and duration instead of calling it deterministic.
+
+## Output
+Report target and commit, environment, report provenance as first-hand/second-hand and verified/unverified at intake, expected, actual, minimal steps, minimal fixture, reproduced status, evidence, unknowns and a safe next hypothesis to test.
+
+## Boundaries
+Do not change production data or publish secrets. During this reproduction-only workflow, do not state a root cause or causal explanation, even when one line appears suspicious. Put only a testable candidate under Safe next hypothesis to test. Do not continue into diagnosis or repair. Stop after a verified reproduction.

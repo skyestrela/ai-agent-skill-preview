@@ -1,0 +1,1 @@
+Investigate the support report in README.md and return a concise bug reproduction brief. Inspect the repository and run any safe local commands needed to establish evidence. Do not modify any files. Do not propose or implement a fix.

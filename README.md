@@ -7,7 +7,9 @@ Four complete, readable Markdown workflows for Claude Code, Codex, Hermes and ot
 
 **Product Hunt launch:** [AI Agent Skills Pack — 10 evidence-first workflows for AI coding agents](https://www.producthunt.com/products/ai-agent-skills-pack?launch=ai-agent-skills-pack). Questions and concrete workflow feedback are welcome; no testimonial or purchase is required.
 
-**Download all four free workflows:** [Free Bundle v1.0.0](https://github.com/skyestrela/ai-agent-skill-preview/releases/tag/free-workflows-bundle-v1.0.0) — one verified MIT-licensed ZIP, or inspect each Markdown file below.
+**Download all four free workflows:** [Free Bundle v1.0.1](https://github.com/skyestrela/ai-agent-skill-preview/releases/tag/free-workflows-bundle-v1.0.1) — one verified MIT-licensed ZIP, or inspect each Markdown file below.
+
+**Transparent paired run:** [the same Codex model scored 6/14 with a concise instruction and 14/14 with Bug Reproduction Brief v1.0.1](evidence/bug-reproduction-benchmark/README.md). Fixture, prompts, outputs, token usage, rubric and limitations are public; this is one synthetic run, not a universal productivity claim.
 
 This repository publishes complete free skills from the **AI Agent Skills Pack** on a measured release cadence. They are not teaser files: all current workflows are MIT licensed and usable on their own.
 

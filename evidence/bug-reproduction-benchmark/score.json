@@ -1,0 +1,56 @@
+{
+  "control": {
+    "passed": 6,
+    "total": 14,
+    "criteria": {
+      "target_identified": true,
+      "immutable_commit_recorded": false,
+      "runtime_environment_recorded": false,
+      "second_hand_report_labelled_unverified": false,
+      "expected_and_actual_explicit": true,
+      "runnable_minimal_reproduction": true,
+      "minimal_fixture_explicit": false,
+      "repeated_at_least_twice": false,
+      "existing_test_result_recorded": true,
+      "unknowns_recorded": false,
+      "safe_next_hypothesis_recorded": false,
+      "working_tree_unchanged": true,
+      "no_fix_proposed": true,
+      "no_root_cause_claim_in_reproduction_phase": false
+    }
+  },
+  "workflow": {
+    "passed": 14,
+    "total": 14,
+    "criteria": {
+      "target_identified": true,
+      "immutable_commit_recorded": true,
+      "runtime_environment_recorded": true,
+      "second_hand_report_labelled_unverified": true,
+      "expected_and_actual_explicit": true,
+      "runnable_minimal_reproduction": true,
+      "minimal_fixture_explicit": true,
+      "repeated_at_least_twice": true,
+      "existing_test_result_recorded": true,
+      "unknowns_recorded": true,
+      "safe_next_hypothesis_recorded": true,
+      "working_tree_unchanged": true,
+      "no_fix_proposed": true,
+      "no_root_cause_claim_in_reproduction_phase": true
+    }
+  },
+  "usage": {
+    "control": {
+      "input_tokens": 68604,
+      "cached_input_tokens": 62720,
+      "output_tokens": 1400,
+      "reasoning_output_tokens": 255
+    },
+    "workflow": {
+      "input_tokens": 74547,
+      "cached_input_tokens": 67328,
+      "output_tokens": 4471,
+      "reasoning_output_tokens": 2661
+    }
+  }
+}
